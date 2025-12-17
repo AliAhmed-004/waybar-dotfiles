@@ -128,14 +128,19 @@ tooltip label {
 
 #bluetooth {
     padding: 0 8px;
-    margin-left: 4px;
+    margin-left: 8px;
 
     background: rgba(106, 106, 106, 0.8);
     color: #eaeaea;
 
-    border-radius: 8px;
+    border-radius: 48px;
 }
 #bluetooth.connected {
-    background: rgba(106, 248, 106, 0.8);
+    background: rgba(130, 255, 238, 0.8);
     color: #eaeaea;
 }
+#bluetooth.disconnected {
+    background: rgba(150, 150, 150, 0.8);
+    color: #eaeaea;
+}
+

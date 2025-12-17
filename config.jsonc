@@ -10,12 +10,11 @@
     ],
     "modules-center": [
         "clock",
-        "sway/window"
+        "bluetooth"
     ],
     "modules-right": [
         "network",
         "pulseaudio",
-        "bluetooth",
         "power-profiles-daemon",
         "battery"
     ],
@@ -38,9 +37,6 @@
             ""
         ],
         "max-length": 25
-    },
-    "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}"
     },
     "pulseaudio": {
         "format": "{volume}% {icon}",
@@ -88,9 +84,9 @@
         }
     },
     "bluetooth": {
-        "format": " {status}",
-        "format-disabled": "󰂲 {status}",
-        "format-connected": "󰂱 Connected",
+        "format": "",
+        "format-disabled": "󰂲",
+        "format-connected": "󰂱",
         "tooltip-format": "{controller_alias}\t{controller_address}",
         "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
