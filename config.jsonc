@@ -9,13 +9,13 @@
         "sway/mode"
     ],
     "modules-center": [
+        "power-profiles-daemon",
         "clock",
         "bluetooth"
     ],
     "modules-right": [
         "network",
         "pulseaudio",
-        "power-profiles-daemon",
         "battery"
     ],
     "battery": {
@@ -56,7 +56,7 @@
             ]
         },
         "scroll-step": 1,
-        // "on-click": "pavucontrol",
+        "on-click": "pavucontrol",
         "ignored-sinks": [
             "Easy Effects Sink"
         ]
@@ -73,7 +73,7 @@
         "format": "{icon}"
     },
     "power-profiles-daemon": {
-        "format": "{profile} {icon}",
+        "format": "{icon}",
         "tooltip-format": "Power profile: {profile}",
         "tooltip": true,
         "format-icons": {
