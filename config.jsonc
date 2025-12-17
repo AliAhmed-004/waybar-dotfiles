@@ -16,8 +16,12 @@
     "modules-right": [
         "network",
         "pulseaudio",
-        "battery"
+        "battery",
+        "custom/power"
     ],
+    "clock": {
+        "tooltip": false
+    },
     "battery": {
         "bat": "BAT0",
         "interval": 60,
@@ -88,8 +92,13 @@
         "format-disabled": "󰂲",
         "format-connected": "󰂱",
         "tooltip-format": "{controller_alias}\t{controller_address}",
-        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-connected": "{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
         "on-click": "blueman-manager"
+    },
+    "custom/power": {
+        "format": "⏻",
+        "tooltip": "Power menu",
+        "on-click": "/home/ali-ahmed/.config/waybar/scripts/power_menu.sh"
     }
 }
