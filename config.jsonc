@@ -17,7 +17,6 @@
         "network",
         "pulseaudio",
         "battery",
-        "custom/power"
     ],
     "clock": {
         "tooltip": false
@@ -96,9 +95,4 @@
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
         "on-click": "blueman-manager"
     },
-    "custom/power": {
-        "format": "⏻",
-        "tooltip": "Power menu",
-        "on-click": "/home/ali-ahmed/.config/waybar/scripts/power_menu.sh"
-    }
 }
