@@ -28,14 +28,14 @@ tooltip label {
 
 #workspaces button {
     transition: all 250ms ease-in-out;
-    padding: 0 2px;
+    padding: 0 4px;
     margin: 2px;
 
 
     background-color: @secondary;
     color: @on_secondary;
 
-    border-radius: 50px;
+    border-radius: 100px;
 }
 #workspaces button.active {
     min-width: 45px;
@@ -43,9 +43,6 @@ tooltip label {
 
     background-color: @primary;
     color: @on_primary;
-
-
-    border-radius: 100px;
 }
 
 #clock {
@@ -73,7 +70,9 @@ tooltip label {
 }
 
 
-
+#battery {
+    margin-right: 0;
+}
 #battery.charging {
     background: @primary;
     color: @on_primary;
@@ -121,11 +120,10 @@ tooltip label {
 
 #bluetooth {
     padding: 0 8px;
-    color: #e5e5e5;
     margin-left: 4px;
 
-    background: @surface;
-    color: @on_surface;
+    background: @secondary;
+    color: @on_secondary;
 
     border-radius: 48px;
 }
