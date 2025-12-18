@@ -37,7 +37,7 @@
             "critical": 10
         },
         "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ⚡ {icon}",
+        "format-charging": "{capacity}% {icon} ⚡",
         "format-discharging": "{capacity}% {icon}",
         "format-full": " {capacity}% {icon}",
         "format-icons": [
