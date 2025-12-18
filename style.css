@@ -16,57 +16,58 @@ window#waybar {
     background: transparent;
     border-radius: 10px;
 }
+window#waybar.empty {
+    background: @inverse_primary;
+}
 
 tooltip {
-    background: rgba(30, 30, 30, 0.8);
+    background: @secondary;
     border: 1px solid rgba(80, 80, 80, 0.5);
 }
 
 tooltip label {
-    color: #d0d0d0;
+    color: @on_secondary;
 }
 
 #workspaces button {
     transition: all 250ms ease-in-out;
     padding: 0 4px;
-    margin: 2px;
+    margin: 0 2px;
 
 
-    background-color: @secondary;
-    color: @on_secondary;
+    background-color: @inverse_primary;
+    color: @on_inverse_primary;
 
     border-radius: 100px;
+}
+#workspaces button.empty {
+    background-color: @secondary;
+    color: @on_secondary;
 }
 #workspaces button.active {
     min-width: 45px;
 
-
     background-color: @primary;
     color: @on_primary;
+
+    border-radius: 100px;
 }
 
+
+#battery,
+#pulseaudio,
+#network,
 #clock {
     background-color: @primary;
     color: @on_primary;
 
-    padding: 0 16px;
-
-    border-radius: 8px;
-
-    font-weight: 700;
-}
-
-#battery,
-#pulseaudio,
-#network {
-    background-color: @primary;
-    color: @on_primary;
-
             /* vertical    horizontal */
-    padding:    0           8px;
+    padding:    0           12px;
     margin:     0           4px;
 
-    border-radius: 8px;
+    border-radius: 100px;
+
+    font-weight: 700;
 }
 
 

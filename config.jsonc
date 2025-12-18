@@ -39,7 +39,7 @@
         "format": "{capacity}% {icon}",
         "format-charging": "{capacity}% {icon} ⚡",
         "format-discharging": "{capacity}% {icon}",
-        "format-full": " {capacity}% {icon}",
+        "format-full": "{capacity}% ",
         "format-icons": [
             "",
             "",
