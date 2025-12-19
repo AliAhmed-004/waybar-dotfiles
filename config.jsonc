@@ -13,13 +13,12 @@
 
     "modules-left": [
         "niri/workspaces",
-    "hyprland/workspaces",
-        "sway/mode"
+        "hyprland/workspaces",
     ],
     "modules-center": [
         "power-profiles-daemon",
         "clock",
-        "bluetooth"
+        "bluetooth",
     ],
     "modules-right": [
         "network",
