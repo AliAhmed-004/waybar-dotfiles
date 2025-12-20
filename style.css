@@ -47,8 +47,8 @@ tooltip label {
 #workspaces button.active {
     min-width: 45px;
 
-    background-color: @primary;
-    color: @on_primary;
+    background-color: @inverse_primary;
+    color: @on_inverse_primary;
 
     border-radius: 100px;
 }
