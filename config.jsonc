@@ -1,6 +1,5 @@
 {
     "layer": "top",
-    "margin-top": 8,
 
     // Margins 
     "margin-left": 10,
@@ -26,6 +25,8 @@
         "battery",
     ],
     "clock": {
+        // Example: "Tue 23 Jun 2024 02:55 AM/PM"
+        "format": "{:%a, %d %b %Y - %I:%M %p}",
         "tooltip": false
     },
     "battery": {
