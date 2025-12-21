@@ -2,8 +2,10 @@
 
 * {
     border: none;
+    
     font-family: "CaskaydiaCove Nerd Font Propo", "CaskaydiaCove Nerd Font";
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 800;
 
     min-height: 0;
     margin: 0;
@@ -22,7 +24,7 @@ window#waybar.empty {
 
 tooltip {
     background: @secondary;
-    border: 1px solid rgba(80, 80, 80, 0.5);
+    border: 1px solid @on_secondary;
 }
 
 tooltip label {
@@ -67,7 +69,6 @@ tooltip label {
 
     border-radius: 100px;
 
-    font-weight: 700;
 }
 
 
@@ -75,11 +76,9 @@ tooltip label {
     margin-right: 0;
 }
 #battery.charging {
-    background: @primary;
     color: @on_primary;
 }
 #battery.discharging {
-    background: @tertiary;
     color: @on_primary;
 }
 #battery.full {
@@ -96,13 +95,11 @@ tooltip label {
 }
 
 #pulseaudio {
-  background: @secondary;
   color: @on_secondary
 }
 
 #network {
-  background: @inverse_primary;
-  color: @on_inverse_primary;
+  color: @on_primary;
 }
 
 #power-profiles-daemon {
