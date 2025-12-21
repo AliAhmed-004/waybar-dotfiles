@@ -79,7 +79,7 @@ tooltip label {
     color: @on_primary;
 }
 #battery.discharging {
-    background: @primary;
+    background: @tertiary;
     color: @on_primary;
 }
 #battery.full {
@@ -93,6 +93,16 @@ tooltip label {
 #battery.critical {
     background: rgba(254, 126, 126, 0.8);
     color: #121212;
+}
+
+#pulseaudio {
+  background: @secondary;
+  color: @on_secondary
+}
+
+#network {
+  background: @inverse_primary;
+  color: @on_inverse_primary;
 }
 
 #power-profiles-daemon {
