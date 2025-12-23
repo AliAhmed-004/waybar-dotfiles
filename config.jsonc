@@ -20,6 +20,7 @@
         "bluetooth",
     ],
     "modules-right": [
+        "custom/wfrec",
         "network",
         "pulseaudio",
         "battery",
@@ -78,6 +79,7 @@
         "format-wifi": "{essid} ",
         "format-ethernet": "{ipaddr}/{cidr} 󰊗",
         "format-disconnected": "󰖪 disconnected",
+        "on-click": "kitty -e impala",
         "max-length": 50
     },
     "niri/workspaces": {
@@ -109,4 +111,9 @@
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
         "on-click": "blueman-manager"
     },
+    "custom/wfrec": {
+      "exec": "~/.local/bin/wf-status.sh",
+      "interval": 1,
+      "tooltip": false
+    }
 }

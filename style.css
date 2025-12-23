@@ -140,3 +140,10 @@ tooltip label {
     color: @on_primary;
 }
 
+#custom-wfrec {
+  color: @error_container;
+  font-weight: bold;
+
+  padding: 0 8px;
+}
+
